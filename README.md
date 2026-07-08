@@ -10,7 +10,6 @@
 ![Explainable AI](https://img.shields.io/badge/Explainable-AI-purple)
 
 **Transforming fragmented healthcare data into actionable clinical intelligence.**
-
 <p align="center">
   <img src="hero_banner.png" alt="Neomage Platform" width="80%">
 </p>
