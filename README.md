@@ -1,4 +1,4 @@
-# Neomage
+no# Neomage
 
 # Multimodal Clinical Intelligence Platform
 
@@ -209,6 +209,12 @@ This repository provides a public overview of the Neomage platform.
 
 Production source code, proprietary algorithms, trained models and commercial implementation remain private to protect intellectual property.
 
-For partnership or collaboration enquiries, please visit:
+## Connect
 
-🌐 https://neomage.uk
+💼 LinkedIn
+
+linkedin.com/in/annalisa-caria-29b9b7289
+
+📧 Contact
+
+Available via LinkedIn for collaboration and partnership enquiries.
