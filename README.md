@@ -2,22 +2,16 @@
 
 ## Multimodal Clinical Intelligence Platform
 
-(https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
-
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-
 ![FHIR](https://img.shields.io/badge/FHIR-Healthcare-orange)
-
 ![Digital Health](https://img.shields.io/badge/Digital_Health-Clinical-success)
+![Explainable AI](https://img.shields.io/badge/Explainable-AI-blueviolet)
 
-![Explainable AI](https://img.shields.io/badge/Expl
-### Transforming fragmented healthcare data into actionable clinical intelligence.
+### Transforming fragmented healthcare data into clinical intelligence.
 
 ---
 
@@ -25,25 +19,25 @@
 >
 > This repository presents the vision, product architecture and technical approach behind Neomage.
 >
-> The production implementation, proprietary algorithms, machine learning models, datasets, engineering documentation and commercial source code remain private.
+> Production source code, proprietary algorithms, trained models, datasets, engineering documentation and commercial implementation remain private.
 
 ---
 
-# Overview
+## Overview
 
-Neomage is a multimodal Clinical Intelligence Platform designed to transform fragmented healthcare data into actionable clinical insights through artificial intelligence.
+Neomage is a multimodal clinical intelligence platform designed to transform fragmented healthcare data into actionable clinical insights through artificial intelligence.
 
-By integrating structured clinical records, medical imaging, physiological signals and patient-generated health data, Neomage creates a unified intelligence layer that supports longitudinal patient understanding, predictive analytics and clinical decision-making.
+By integrating structured clinical records, medical imaging, physiological signals and patient-generated health data, the platform creates a unified intelligence layer that supports longitudinal patient understanding, predictive analytics and clinical decision-making.
 
-Rather than replacing existing healthcare systems, Neomage is designed to integrate seamlessly with clinical workflows, helping healthcare professionals gain richer context, identify meaningful patterns and support earlier intervention.
+Rather than replacing existing healthcare systems, the platform is designed to integrate with clinical workflows, helping healthcare professionals gain richer context, identify meaningful patterns and support earlier intervention.
 
 ---
 
-# The Challenge
+## The Challenge
 
 Healthcare information remains fragmented across hospitals, imaging systems, laboratories, wearable devices and patient-generated health data.
 
-This fragmentation creates significant challenges for clinicians, including:
+This fragmentation creates challenges for clinicians, including:
 
 - Fragmented patient information
 - High cognitive workload
@@ -55,15 +49,15 @@ This fragmentation creates significant challenges for clinicians, including:
 
 ---
 
-# Our Vision
+## Our Vision
 
-Neomage aims to become the clinical intelligence layer connecting patients, clinicians and healthcare systems.
+The long-term vision is to build a clinical intelligence layer connecting patients, clinicians and healthcare systems.
 
 By combining multimodal artificial intelligence with longitudinal patient modelling, the platform is designed to transform disconnected healthcare information into clinically meaningful insights that support precision medicine, proactive care and better healthcare outcomes.
 
 ---
 
-# Key Capabilities
+## Key Capabilities
 
 - Multimodal clinical data integration
 - Longitudinal patient intelligence
@@ -77,62 +71,52 @@ By combining multimodal artificial intelligence with longitudinal patient modell
 
 ---
 
-# High-Level Platform Architecture
+## High-Level Platform Architecture
 
-```
-                    Patient Data
-
- EHR • Imaging • Laboratory • Wearables • Assessments
-
-                           │
-                           ▼
-
-          Clinical Intelligence Layer
-
-                           │
-
-            Data Integration & Harmonisation
-
-                           │
-
-               Feature Engineering
-
-                           │
-
-              Multimodal AI Intelligence
-
-                           │
-
-             Explainable Risk Prediction
-
-                           │
-
-             Clinical Decision Support
-
-                    ┌───────────────┐
-                    │               │
-                    ▼               ▼
-
-          Clinician Dashboard   Patient App
+```text
+Patient Data
+EHR â¢ Imaging â¢ Laboratory â¢ Wearables â¢ Assessments
+        â
+        â¼
+Clinical Intelligence Layer
+        â
+        â¼
+Data Integration & Harmonisation
+        â
+        â¼
+Feature Engineering
+        â
+        â¼
+Multimodal AI Intelligence
+        â
+        â¼
+Explainable Risk Prediction
+        â
+        â¼
+Clinical Decision Support
+        â
+        âââ Clinician Dashboard
+        âââ Patient App
 ```
 
 ---
 
-# Technology Stack
+## Technology Stack
 
 | Layer | Technologies |
-|--------|--------------|
-| Backend | Python • FastAPI |
-| Artificial Intelligence | PyTorch • Scikit-learn • Explainable AI |
-| Data | PostgreSQL • TimescaleDB |
-| Standards | REST APIs • FHIR |
-| Infrastructure | Docker • Cloud-native Architecture |
+|---|---|
+| Backend | Python â¢ FastAPI |
+| Artificial Intelligence | PyTorch â¢ Scikit-learn â¢ Explainable AI |
+| Data | PostgreSQL â¢ TimescaleDB |
+| Standards | REST APIs â¢ FHIR |
+| Infrastructure | Docker â¢ Cloud-native architecture |
+| Product Interface | Clinician dashboard â¢ Patient companion application |
 
 ---
 
-# Design Principles
+## Design Principles
 
-Neomage is built around several core engineering principles:
+The platform is built around several core engineering and product principles:
 
 - Human-in-the-loop clinical decision support
 - Explainable AI
@@ -145,7 +129,7 @@ Neomage is built around several core engineering principles:
 
 ---
 
-# Current Development Focus
+## Current Development Focus
 
 Current development priorities include:
 
@@ -159,23 +143,23 @@ Current development priorities include:
 
 ---
 
-# Roadmap
+## Roadmap
 
-## Foundation
+### Foundation
 
 - AI platform architecture
 - Modular backend services
 - Clinician dashboard
 - Patient companion application
 
-## In Progress
+### In Progress
 
 - Multimodal intelligence engine
 - Clinical validation
 - Explainability framework
 - API expansion
 
-## Future
+### Future
 
 - FHIR interoperability
 - Hospital integrations
@@ -185,15 +169,17 @@ Current development priorities include:
 
 ---
 
-# Why Neomage
+## Why This Matters
 
-Neomage is designed around a modular intelligence architecture that enables healthcare organisations to move beyond isolated data points towards continuous patient understanding.
+Healthcare organisations need more than isolated dashboards, single-condition models or fragmented patient records.
 
-Rather than replacing clinicians, the platform augments clinical expertise by providing explainable AI insights that support more informed and timely decision-making.
+A modular intelligence architecture enables healthcare teams to move beyond disconnected data points towards continuous patient understanding.
+
+The platform is designed to augment clinical expertise by providing explainable AI insights that support more informed and timely decision-making.
 
 ---
 
-# Repository Scope
+## Repository Scope
 
 This public repository intentionally excludes:
 
@@ -210,11 +196,18 @@ These components remain private to protect intellectual property.
 
 ---
 
-# About Neomage
+## Founder & Contact
 
-Neomage is an independent deep-tech venture focused on building next-generation clinical intelligence systems through multimodal artificial intelligence, modular software architecture and human-centred product design.
+**Annalisa Caria**  
+AI Systems Architect | Founder
 
-The platform is currently under active development.
+Building intelligent systems across clinical AI, agentic AI and scientific computing.
+
+**LinkedIn**  
+https://linkedin.com/in/annalisa-caria-29b9b7289
+
+**GitHub**  
+https://github.com/alcadoni
 
 ---
 
@@ -223,13 +216,3 @@ The platform is currently under active development.
 This repository provides a public overview of the Neomage platform.
 
 Production source code, proprietary algorithms, trained models and commercial implementation remain private to protect intellectual property.
-
-## Connect
-
-💼 LinkedIn
-
-linkedin.com/in/annalisa-caria-29b9b7289
-
-📧 Contact
-
-Available via LinkedIn for collaboration and partnership enquiries.
