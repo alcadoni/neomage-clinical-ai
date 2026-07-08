@@ -10,7 +10,9 @@
 ![FHIR](https://img.shields.io/badge/FHIR-Healthcare-orange)
 ![Explainable AI](https://img.shields.io/badge/Explainable-AI-purple)
 
-<img src="ipad2.png" width="80%">
+<p align="center">
+  <img src="./ipad2.png" alt="Neomage Platform" width="70%">
+</p>
 
 **Transforming fragmented healthcare data into actionable clinical intelligence.**
 
