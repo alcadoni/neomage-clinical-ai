@@ -13,7 +13,6 @@
 <p align="center">
   <img src="hero_banner.png" alt="Neomage Platform" width="80%">
 </p>
----
 
 ## Public Technical Showcase
 
