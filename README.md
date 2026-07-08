@@ -14,6 +14,7 @@
   <img src="hero_banner.png" alt="Neomage Platform" width="80%">
 </p>
 
+
 ## Public Technical Showcase
 
 This repository presents the vision, product architecture and technical direction behind Neomage.
