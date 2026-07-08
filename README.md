@@ -12,6 +12,7 @@ no# Neomage
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![FHIR](https://img.shields.io/badge/FHIR-Healthcare-orange)
 ![Digital Health](https://img.shields.io/badge/Digital_Health-Clinical-success)
+![Explainable AI](https://img.shields.io/badge/Explainable-AI-blueviolet)
 ### Transforming fragmented healthcare data into actionable clinical intelligence.
 
 ---
