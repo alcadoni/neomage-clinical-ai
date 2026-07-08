@@ -1,6 +1,9 @@
 # Neomage
 
 ## Multimodal Clinical Intelligence Platform
+<p align="center">
+  <img src="ipad2.png" alt="Neomage Clinical Intelligence Platform" width="100%">
+</p>
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green)
