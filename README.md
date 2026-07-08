@@ -1,7 +1,17 @@
 no# Neomage
 
 # Multimodal Clinical Intelligence Platform
+# Neomage
 
+## Multimodal Clinical Intelligence Platform
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![FHIR](https://img.shields.io/badge/FHIR-Healthcare-orange)
+![Digital Health](https://img.shields.io/badge/Digital_Health-Clinical-success)
 ### Transforming fragmented healthcare data into actionable clinical intelligence.
 
 ---
