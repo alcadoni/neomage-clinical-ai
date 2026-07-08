@@ -1,11 +1,6 @@
 # Neomage
 
 ## Multimodal Clinical Intelligence Platform
-
-<p align="center">
-  <img src="hero_banner.png" alt="Neomage Platform" width="80%">
-</p>
-
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green)
 ![PyTorch](https://img.shields.io/badge/PyTorch-red)
@@ -16,6 +11,9 @@
 
 **Transforming fragmented healthcare data into actionable clinical intelligence.**
 
+<p align="center">
+  <img src="hero_banner.png" alt="Neomage Platform" width="80%">
+</p>
 ---
 
 ## Public Technical Showcase
