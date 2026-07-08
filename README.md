@@ -9,9 +9,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue)
 ![FHIR](https://img.shields.io/badge/FHIR-Healthcare-orange)
 ![Explainable AI](https://img.shields.io/badge/Explainable-AI-purple)
-<p align="center">
-  <img src="hero-banner.png" alt="Neomage Platform" width="80%">
-</p>
+<img src="ipad2.png" width="80%">
 **Transforming fragmented healthcare data into actionable clinical intelligence.**
 
 ---
