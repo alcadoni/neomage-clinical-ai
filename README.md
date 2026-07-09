@@ -15,17 +15,17 @@
 </p>
 
 
-## Public Technical Showcase
+# Public Technical Showcase
 
-This repository presents the vision, product architecture and technical direction behind Neomage.
+This repository presents the public architecture and technical direction behind Neomage.
 
 Production source code, proprietary algorithms, machine learning models, datasets and commercial implementations remain private.
 
 ---
 
-## Overview
+# Overview
 
-Neomage is a modular Clinical AI platform that integrates multimodal healthcare data to support predictive analytics and clinical decision support.
+Neomage is a modular clinical intelligence platform that integrates multimodal healthcare data to support longitudinal risk modelling and clinician-in-the-loop decision support.
 
 The platform combines:
 
@@ -38,10 +38,10 @@ The objective is to provide clinicians with a unified intelligence layer that su
 
 ---
 
-## Core Capabilities
+# Core Capabilities
 
 - Multimodal AI
-- Predictive Analytics
+- Longitudinal Risk Modelling
 - Explainable AI
 - Clinical Decision Support
 - Longitudinal Patient Intelligence
@@ -51,10 +51,10 @@ The objective is to provide clinicians with a unified intelligence layer that su
 
 ---
 
-## Technology Stack
+# Technology Stack
 
 | Layer | Technology |
-|-------|------------|
+|--------|------------|
 | Backend | Python, FastAPI |
 | AI | PyTorch, Scikit-learn |
 | Database | PostgreSQL, TimescaleDB |
@@ -63,7 +63,7 @@ The objective is to provide clinicians with a unified intelligence layer that su
 
 ---
 
-## Roadmap
+# Roadmap
 
 - Clinical AI Platform
 - Multimodal Data Fusion
@@ -74,7 +74,7 @@ The objective is to provide clinicians with a unified intelligence layer that su
 
 ---
 
-## Repository Scope
+# Repository Scope
 
 This public repository intentionally excludes:
 
@@ -84,23 +84,16 @@ This public repository intentionally excludes:
 - Internal documentation
 - Production infrastructure
 
-This repository exists to showcase the product vision and technical architecture while protecting Neomage's intellectual property.
+This repository showcases the public technical architecture of Neomage while protecting its intellectual property.
 
 ---
 
-## Founder
+# Founder
 
 **Annalisa Caria**
 
-AI Systems Architect | Founder
+Founder | Product Architect | AI Systems Builder
 
-LinkedIn:
-https://linkedin.com/in/annalisa-caria-29b9b7289
-
-GitHub:
-https://github.com/alcadoni
+This repository reflects founder-led product architecture and hands-on AI-native software development.
 
 ---
-
-**Neomage**  
-Building the next generation of Clinical Intelligence.
