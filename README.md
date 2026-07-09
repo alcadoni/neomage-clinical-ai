@@ -14,91 +14,77 @@
   <img src="hero_banner.png" alt="Neomage Platform" width="80%">
 </p>
 
+---
 
-Neomage is a clinical AI platform designed to help healthcare teams make better use of fragmented patient data.
+# Overview
 
-The platform connects clinical records, imaging, biomarkers and physiological signals into a unified intelligence layer for patient risk prediction and clinician-in-the-loop decision support.
+Neomage is a clinical AI platform that helps healthcare teams transform fragmented patient data into actionable clinical intelligence.
 
-This public repository presents the technical direction behind Neomage.  
-The production implementation, models, datasets and commercial infrastructure remain private.
+The platform combines clinical records, medical imaging, biomarkers and physiological signals into a unified intelligence layer designed to support patient risk assessment and clinician decision support.
+
+This public repository showcases the engineering architecture behind the platform. Production models, proprietary code, clinical datasets and commercial integrations remain private.
 
 ---
 
-# What this repository demonstrates
+# Repository Overview
 
-- Clinical AI systems architecture
-- Patient risk prediction workflows
-- Real clinical data pipeline development
-- Machine learning workflow design
-- Multimodal AI architecture
-- FastAPI backend architecture
-- AI-native software development
+| Public Repository | Private Platform |
+|-------------------|------------------|
+| Platform architecture | Proprietary source code |
+| Backend API design | Production machine learning models |
+| Engineering approach | Clinical datasets |
+| Technology stack | Commercial integrations |
+| Public documentation | Internal infrastructure |
 
 ---
 
-# Current Technical Work
+# Platform Architecture
 
-The private implementation includes:
-
-- Modular FastAPI backend
-- REST API services
-- OAI clinical data pipeline
-- Cohort construction
-- Feature engineering
-- Outcome generation
-- Validation framework
-- Random Forest, XGBoost and LASSO model training
-- Multimodal inference services
-- TKA clinical intelligence module
-- SQLAlchemy persistence
-- Docker support
+| Clinical Data | AI Platform | Clinical Services |
+|---------------|-------------|-------------------|
+| Clinical records | Feature engineering | Patient risk prediction |
+| Medical imaging | Machine learning pipeline | Clinical decision support |
+| Biomarkers | Model validation | Patient trajectory analysis |
+| Physiological signals | Explainable AI | REST API services |
 
 ---
 
 # Development Status
 
-## Implemented
+## ✅ Implemented
 
-✅ Clinical AI backend
+| Status | Component |
+|:------:|-----------|
+| ✅ | Clinical AI backend |
+| ✅ | REST API services |
+| ✅ | Real OAI clinical data pipeline |
+| ✅ | Cohort construction & feature engineering |
+| ✅ | Machine learning training pipeline |
+| ✅ | Model validation framework |
+| ✅ | Multimodal inference architecture |
+| ✅ | TKA clinical intelligence module |
 
-✅ REST API services
+## 🚧 Next Milestones
 
-✅ Real OAI clinical data pipeline
-
-✅ Cohort construction and feature engineering
-
-✅ Machine learning training pipeline
-
-✅ Model validation framework
-
-✅ Multimodal inference architecture
-
-✅ TKA clinical intelligence module
-
-## In Progress
-
-🚧 Unified clinical intelligence layer
-
-🚧 Clinical workflow integration
-
-🚧 Model deployment
-
-🚧 External clinical validation
-
-🚧 Hospital pilot preparation
+| Status | Component |
+|:------:|-----------|
+| 🚧 | Unified clinical intelligence layer |
+| 🚧 | Clinical workflow integration |
+| 🚧 | Production model deployment |
+| 🚧 | External clinical validation |
+| 🚧 | Hospital pilot deployment |
 
 ---
 
 # Technology Stack
 
 | Layer | Technology |
-|--------|------------|
-| Language | Python |
+|-------|------------|
+| Language | Python 3.11 |
 | Backend | FastAPI |
-| AI / ML | PyTorch, Scikit-learn |
-| Models | Random Forest, XGBoost, LASSO |
-| Database | PostgreSQL / SQLAlchemy |
-| APIs | REST |
+| AI / ML | PyTorch · Scikit-learn |
+| Models | Random Forest · XGBoost · LASSO |
+| Database | PostgreSQL |
 | Infrastructure | Docker |
 | Healthcare | FHIR-ready architecture |
 
@@ -106,31 +92,24 @@ The private implementation includes:
 
 # My Role
 
-Founder, AI Systems Architect and hands-on technical builder.
-
-I designed the platform architecture, clinical AI workflows, backend structure and data pipeline strategy while leading implementation through AI-native development workflows using coding agents.
+| Area | Contribution |
+|------|--------------|
+| Product | Founder & product strategy |
+| Architecture | Clinical AI system architecture |
+| AI | Machine learning workflow design |
+| Engineering | Hands-on backend implementation using AI-assisted software development |
 
 ---
 
 # Repository Scope
 
-This public repository is a technical showcase.
-
-Included:
-
-- Architecture overview
-- Engineering approach
-- Technology stack
-- Public documentation
-- Product direction
-
-Excluded:
-
-- Proprietary source code
-- Production machine learning models
-- Clinical datasets
-- Commercial integrations
-- Internal infrastructure
+| Included | Not Included |
+|----------|--------------|
+| Architecture overview | Proprietary source code |
+| Engineering approach | Production ML models |
+| Technology stack | Clinical datasets |
+| Public documentation | Commercial integrations |
+| Product direction | Internal infrastructure |
 
 ---
 
