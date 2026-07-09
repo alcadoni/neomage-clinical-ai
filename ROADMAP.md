@@ -1,58 +1,63 @@
-
----
-
-# `ROADMAP.md`
-
-```md
 # Neomage Roadmap
 
-This roadmap summarises the public technical direction of Neomage.
+## Current Foundation
 
-It does not include proprietary implementation details, private datasets or commercial development plans.
+The current private implementation includes the core engineering foundation of the platform.
 
----
+### Completed
 
-# Current
-
-- Public technical repository
-- Product architecture documentation
-- Modular clinical AI architecture
-- FastAPI backend direction
-- Multimodal data model
-- Clinician dashboard prototype
-- Patient app prototype
-- AI-native development workflow
-
----
-
-# In Progress
-
-- Longitudinal risk modelling
-- Multimodal data processing
-- Explainable AI workflows
-- Dashboard and API integration
-- Clinical workflow mapping
-- Research validation pipeline
-- Private implementation development
+- Clinical AI backend
+- REST API services
+- OAI longitudinal data pipeline
+- Cohort construction
+- Feature engineering
+- Machine learning training pipeline
+- Model validation framework
+- Multimodal inference architecture
+- Clinical intelligence modules
+- Docker deployment
 
 ---
 
-# Future
+## Current Focus
 
-- Hospital pilot preparation
-- FHIR-based integration
-- Clinical validation
-- Real-time clinical intelligence
-- Additional multimodal AI models
-- Wearable data integration
-- Cloud and edge deployment
-- Regulatory pathway preparation
-- Large-scale healthcare deployment
+The current development phase is centred on consolidating existing components into a unified clinical platform.
+
+### In Progress
+
+- Unified clinical intelligence layer
+- API consolidation
+- Clinical workflow integration
+- Model deployment
+- Explainability improvements
 
 ---
 
-# Repository Scope
+## Next Milestones
 
-This roadmap reflects the public technical direction only.
+The next stage focuses on preparing the platform for real-world evaluation.
 
-Production source code, proprietary algorithms, models, datasets and commercial implementation details remain private.
+### Planned
+
+- Hospital pilot
+- External clinical validation
+- EHR integration
+- Production infrastructure
+- Regulatory preparation
+
+---
+
+## Long-Term Vision
+
+Neomage is being developed as a modular Clinical Intelligence Platform capable of integrating heterogeneous healthcare data into a unified patient intelligence layer that supports clinician-in-the-loop decision making across multiple clinical workflows.
+
+---
+
+> **Repository Note**
+>
+> This public repository reflects the engineering direction of Neomage.
+> Proprietary implementations, production models and clinical datasets remain private.
+
+---
+
+© Neomage Ltd.
