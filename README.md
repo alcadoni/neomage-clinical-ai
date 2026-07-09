@@ -97,8 +97,7 @@ This public repository showcases the engineering architecture behind the platfor
 | Product | Founder & product strategy |
 | Architecture | Clinical AI system architecture |
 | AI | Machine learning workflow design |
-| Engineering | Hands-on backend implementation using AI-assisted software development |
-
+| Engineering | Hands-on backend implementation using Devin and Codex AI coding agents
 ---
 
 # Repository Scope
