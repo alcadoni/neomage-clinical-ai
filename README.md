@@ -96,7 +96,7 @@ This public repository showcases the engineering architecture behind the platfor
 |------|--------------|
 | Product | Founder & product strategy |
 | Architecture | Clinical AI system architecture |
-| AI | Machine learning pipeline design |
+| AI | Machine learning pipeline architecture |
 | Engineering | Hands-on backend implementation using Devin and OpenAI Codex
 ---
 
