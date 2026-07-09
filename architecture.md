@@ -65,3 +65,20 @@ This document describes the public technical architecture only.
                          ▼
 
                     PostgreSQL / TimescaleDB
+
+# Platform Stack
+
+| Layer | Technology |
+|--------|------------|
+| Backend | Python, FastAPI |
+| AI / ML | PyTorch, Scikit-learn |
+| Database | PostgreSQL, TimescaleDB |
+| APIs | REST, FHIR-ready |
+| Infrastructure | Docker |
+| Prototype | Bubble |
+
+---
+
+This repository documents the public technical direction of Neomage.
+
+Production source code, machine learning models, datasets and commercial implementations remain private.
