@@ -15,13 +15,6 @@
 </p>
 
 
-
-# Neomage
-
-## Clinical AI Platform for Patient Risk Intelligence
-
-![Neomage](hero_banner.png)
-
 Neomage is a clinical AI platform designed to help healthcare teams make better use of fragmented patient data.
 
 The platform connects clinical records, imaging, biomarkers and physiological signals into a unified intelligence layer for patient risk prediction and clinician-in-the-loop decision support.
