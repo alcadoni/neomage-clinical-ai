@@ -15,39 +15,84 @@
 </p>
 
 
-# Public Technical Showcase
 
-This repository presents the public architecture and technical direction behind Neomage.
+# Neomage
 
-Production source code, proprietary algorithms, machine learning models, datasets and commercial implementations remain private.
+## Clinical AI Platform for Patient Risk Intelligence
 
----
+![Neomage](hero_banner.png)
 
-# Overview
+Neomage is a clinical AI platform designed to help healthcare teams make better use of fragmented patient data.
 
-Neomage is a modular clinical intelligence platform that integrates multimodal healthcare data to support longitudinal risk modelling and clinician-in-the-loop decision support.
+The platform connects clinical records, imaging, biomarkers and physiological signals into a unified intelligence layer for patient risk prediction and clinician-in-the-loop decision support.
 
-The platform combines:
-
-- Electronic Health Records (EHR)
-- Medical Imaging
-- Physiological Time-Series Data
-- Wearables and Patient-Generated Health Data
-
-The objective is to provide clinicians with a unified intelligence layer that supports longitudinal patient understanding and earlier intervention.
+This public repository presents the technical direction behind Neomage.  
+The production implementation, models, datasets and commercial infrastructure remain private.
 
 ---
 
-# Core Capabilities
+# What this repository demonstrates
 
-- Multimodal AI
-- Longitudinal Risk Modelling
-- Explainable AI
-- Clinical Decision Support
-- Longitudinal Patient Intelligence
-- FastAPI Backend
-- API-first Architecture
-- Modular AI Pipelines
+- Clinical AI systems architecture
+- Patient risk prediction workflows
+- Real clinical data pipeline development
+- Machine learning workflow design
+- Multimodal AI architecture
+- FastAPI backend architecture
+- AI-native software development
+
+---
+
+# Current Technical Work
+
+The private implementation includes:
+
+- Modular FastAPI backend
+- REST API services
+- OAI clinical data pipeline
+- Cohort construction
+- Feature engineering
+- Outcome generation
+- Validation framework
+- Random Forest, XGBoost and LASSO model training
+- Multimodal inference services
+- TKA clinical intelligence module
+- SQLAlchemy persistence
+- Docker support
+
+---
+
+# Development Status
+
+## Implemented
+
+✅ Clinical AI backend
+
+✅ REST API services
+
+✅ Real OAI clinical data pipeline
+
+✅ Cohort construction and feature engineering
+
+✅ Machine learning training pipeline
+
+✅ Model validation framework
+
+✅ Multimodal inference architecture
+
+✅ TKA clinical intelligence module
+
+## In Progress
+
+🚧 Unified clinical intelligence layer
+
+🚧 Clinical workflow integration
+
+🚧 Model deployment
+
+🚧 External clinical validation
+
+🚧 Hospital pilot preparation
 
 ---
 
@@ -55,45 +100,45 @@ The objective is to provide clinicians with a unified intelligence layer that su
 
 | Layer | Technology |
 |--------|------------|
-| Backend | Python, FastAPI |
-| AI | PyTorch, Scikit-learn |
-| Database | PostgreSQL, TimescaleDB |
-| APIs | REST, FHIR |
+| Language | Python |
+| Backend | FastAPI |
+| AI / ML | PyTorch, Scikit-learn |
+| Models | Random Forest, XGBoost, LASSO |
+| Database | PostgreSQL / SQLAlchemy |
+| APIs | REST |
 | Infrastructure | Docker |
+| Healthcare | FHIR-ready architecture |
 
 ---
 
-# Roadmap
+# My Role
 
-- Clinical AI Platform
-- Multimodal Data Fusion
-- Clinician Dashboard
-- Patient Mobile App
-- Hospital Integration (FHIR)
-- Clinical Validation
+Founder, AI Systems Architect and hands-on technical builder.
+
+I designed the platform architecture, clinical AI workflows, backend structure and data pipeline strategy while leading implementation through AI-native development workflows using coding agents.
 
 ---
 
 # Repository Scope
 
-This public repository intentionally excludes:
+This public repository is a technical showcase.
+
+Included:
+
+- Architecture overview
+- Engineering approach
+- Technology stack
+- Public documentation
+- Product direction
+
+Excluded:
 
 - Proprietary source code
-- Machine learning models
-- Training datasets
-- Internal documentation
-- Production infrastructure
-
-This repository showcases the public technical architecture of Neomage while protecting its intellectual property.
+- Production machine learning models
+- Clinical datasets
+- Commercial integrations
+- Internal infrastructure
 
 ---
 
-# Founder
-
-**Annalisa Caria**
-
-Founder | Product Architect | AI Systems Builder
-
-This repository reflects founder-led product architecture and hands-on AI-native software development.
-
----
+© Neomage Ltd.
