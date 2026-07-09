@@ -2,83 +2,91 @@
 
 ## Multimodal Clinical Intelligence Platform
 
-Neomage is designed as a modular clinical intelligence platform that integrates multimodal healthcare data into a unified clinical intelligence layer.
+This document provides a high-level overview of Neomage's public system architecture.
 
-The system supports longitudinal risk modelling, explainable AI outputs and clinician-in-the-loop decision support.
+Neomage is designed as a modular Clinical AI platform that integrates fragmented healthcare data into a unified intelligence layer for clinician-in-the-loop decision support.
 
-This document describes the public technical architecture only.
+> **Note**
+>
+> This repository intentionally presents the public architecture only.
+> Proprietary algorithms, production models, clinical datasets and commercial infrastructure are not included.
 
 ---
 
 # System Overview
 
-```text
-                    Clinical Users
-          Physicians • Nurses • Clinical Teams
-
-                         │
-                         ▼
-
-              Clinician Dashboard / Patient App
-
-                         │
-                         ▼
-
-                    REST API (FastAPI)
-
-                         │
-                         ▼
-
-────────────────────────────────────────────────────
-
- Electronic Health Records       Medical Imaging
- FHIR / EHR                      MRI • CT • Ultrasound
-
- Laboratory Results              Physiological Signals
- Biomarkers                      Vitals • Time-Series Data
-
- Wearables                       Patient-Generated Data
-
-────────────────────────────────────────────────────
-
-                         │
-                         ▼
-
-              Data Ingestion & Processing Layer
-
-                         │
-                         ▼
-
-              Multimodal AI Intelligence Layer
-
-                         │
-                         ▼
-
- Longitudinal Risk Modelling & Explainable Outputs
-
-                         │
-                         ▼
-
-                  Clinical Decision Support
-
-                         │
-                         ▼
-
-                    PostgreSQL / TimescaleDB
-
-# Platform Stack
-
-| Layer | Technology |
-|--------|------------|
-| Backend | Python, FastAPI |
-| AI / ML | PyTorch, Scikit-learn |
-| Database | PostgreSQL, TimescaleDB |
-| APIs | REST, FHIR-ready |
-| Infrastructure | Docker |
-| Prototype | Bubble |
+```
+                      Physicians
+                           │
+                           ▼
+               Clinical Dashboard / APIs
+                           │
+                      FastAPI Backend
+                           │
+      ┌──────────────┬──────────────┬──────────────┐
+      ▼              ▼              ▼
+ Clinical Data   Medical Imaging   Physiological Data
+ EHR • FHIR      MRI • CT • US     Biomarkers • Vitals
+      └──────────────┬──────────────┘
+                     ▼
+         Clinical Intelligence Layer
+                     │
+                     ▼
+ Patient Risk Intelligence & Decision Support
+                     │
+                     ▼
+             PostgreSQL Database
+```
 
 ---
 
-This repository documents the public technical direction of Neomage.
+# Platform Components
 
-Production source code, machine learning models, datasets and commercial implementations remain private.
+| Layer | Purpose |
+|--------|---------|
+| Clinical Data | Integrates structured healthcare information from multiple clinical sources. |
+| AI Platform | Data engineering, feature generation, model training, validation and inference. |
+| API Layer | FastAPI services exposing platform capabilities through REST APIs. |
+| Clinical Intelligence | Patient risk intelligence and clinician decision support. |
+
+---
+
+# Engineering Principles
+
+| Principle | Description |
+|-----------|-------------|
+| Modular | Independent components designed for scalability and maintainability. |
+| Explainable | Supports clinicians rather than replacing clinical judgement. |
+| Interoperable | Designed for FHIR-ready healthcare environments. |
+| Reproducible | Engineering and ML workflows emphasise reproducibility. |
+| Privacy-first | Designed with secure healthcare deployment in mind. |
+
+---
+
+# Technology Stack
+
+| Layer | Technology |
+|--------|------------|
+| Language | Python 3.11 |
+| Backend | FastAPI |
+| AI / ML | PyTorch · Scikit-learn |
+| Database | PostgreSQL · SQLAlchemy |
+| APIs | REST |
+| Infrastructure | Docker |
+| Healthcare | FHIR-ready architecture |
+
+---
+
+# Repository Scope
+
+| Included | Not Included |
+|----------|--------------|
+| Public architecture | Proprietary source code |
+| Engineering approach | Production machine learning models |
+| Technology stack | Clinical datasets |
+| Public documentation | Commercial integrations |
+| Product direction | Internal infrastructure |
+
+---
+
+© Neomage Ltd.
